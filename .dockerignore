@@ -1,0 +1,27 @@
+# Node/Django common clutter
+node_modules/
+__pycache__/
+*.pyc
+
+# Dependency artifacts
+*.log
+*.sqlite3
+*.db
+*.env
+.env.*
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.tar.gz
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker hygiene
+Dockerfile.*
+docker-compose.*
